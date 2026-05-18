@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leon Nguyen | Full-stack Developer Portfolio</title>
+    <meta name="description" content="Professional portfolio of Leon Nguyen, a Full-stack Developer specializing in high-performance NestJS backends, React 19 dashboards, and scalable software architectures.">
+    <!-- Google Fonts: Space Grotesk (Tech/Modern) & Inter (Clean body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="theme-cyberpunk">
+    <!-- Animated Glowing Background Blobs -->
+    <div class="blob-bg blob-1"></div>
+    <div class="blob-bg blob-2"></div>
+    <div class="blob-bg blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" id="logo">
+                <span class="logo-bracket">&lt;</span>Leon<span class="logo-dot">.</span>N<span class="logo-bracket">/&gt;</span>
+            </a>
+            
+            <nav class="nav-menu" id="navMenu">
+                <a href="#hero" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#ggt-project" class="nav-link">Featured Project</a>
+                <a href="#github" class="nav-link">GitHub</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Customize Theme" title="Customize Theme">
+                    <i data-lucide="palette"></i>
+                </button>
+                <a href="#contact" class="btn btn-primary btn-sm btn-glow">Hire Me</a>
+                <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Menu">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Theme Customizer Sidebar -->
+    <div class="theme-sidebar" id="themeSidebar">
+        <div class="sidebar-header">
+            <h3>Theme Customizer</h3>
+            <button class="close-sidebar-btn" id="closeSidebarBtn">&times;</button>
+        </div>
+        <div class="sidebar-body">
+            <p>Select your preferred aesthetic:</p>
+            <div class="theme-options">
+                <button class="theme-opt-btn active" data-theme="cyberpunk">
+                    <span class="theme-color-preview preview-cyber"></span>
+                    <span class="theme-name">Dark Cyberpunk</span>
+                </button>
+                <button class="theme-opt-btn" data-theme="obsidian">
+                    <span class="theme-color-preview preview-obsidian"></span>
+                    <span class="theme-name">Royal Obsidian</span>
+                </button>
+                <button class="theme-opt-btn" data-theme="emerald">
+                    <span class="theme-color-preview preview-emerald"></span>
+                    <span class="theme-name">Emerald Forest</span>
+                </button>
+                <button class="theme-opt-btn" data-theme="nordic">
+                    <span class="theme-color-preview preview-nordic"></span>
+                    <span class="theme-name">Nordic Light</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+
+    <!-- Main Container -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="pulse-indicator"></span>
+                        Available for Full-time Roles & Contracts
+                    </div>
+                    <h1 class="hero-title">
+                        Hi, I'm Leon Nguyen<br>
+                        <span class="gradient-text typing-container"><span id="typed-text"></span><span class="typed-cursor">|</span></span>
+                    </h1>
+                    <p class="hero-subtitle">
+                        I engineer high-performance full-stack systems, specializing in scalable backends with <strong>NestJS</strong> & <strong>TypeORM</strong> and dynamic admin panels using <strong>React 19</strong> & <strong>TanStack</strong>.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#ggt-project" class="btn btn-primary btn-lg btn-glow">
+                            <i data-lucide="eye" class="btn-icon"></i> View My Work
+                        </a>
+                        <a href="#contact" class="btn btn-secondary btn-lg">
+                            <i data-lucide="mail" class="btn-icon"></i> Contact Me
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="visual-glowing-glow"></div>
+                    <div class="visual-card glass">
+                        <div class="card-header-bar">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                            <span class="file-tab"><i data-lucide="terminal"></i> fullstack-dev.ts</span>
+                        </div>
+                        <div class="card-code">
+                            <pre><code><span class="keyword">const</span> developer = {
+    name: <span class="string">'Leon Nguyen'</span>,
+    role: <span class="string">'Fullstack Developer'</span>,
+    skills: [
+        <span class="string">'NestJS'</span>, <span class="string">'React 19'</span>, <span class="string">'TypeScript'</span>,
+        <span class="string">'PostgreSQL'</span>, <span class="string">'Redis'</span>, <span class="string">'WebSockets'</span>,
+        <span class="string">'Docker'</span>, <span class="string">'AWS S3'</span>, <span class="string">'CI/CD'</span>
+    ],
+    passion: <span class="string">'High-performance architecture'</span>,
+    codeEfficiency: <span class="number">0.99</span>
+};
+
+<span class="comment">// Resolving business problems...</span>
+<span class="keyword">await</span> developer.buildScalableSystem({
+    performance: <span class="string">'low-latency'</span>,
+    security: <span class="string">'top-tier'</span>,
+    UX: <span class="string">'premium'</span>
+});</code></pre>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <a href="#about" class="scroll-down-indicator" aria-label="Scroll Down">
+                <i data-lucide="chevron-down"></i>
+            </a>
+        </section>
+
+        <!-- About & Tech Stack Section -->
+        <section id="about" class="about-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Overview</span>
+                    <h2 class="section-title">About My Expertise</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="about-grid">
+                    <div class="about-info glass">
+                        <h3 class="about-heading">I craft robust backends & premium frontends</h3>
+                        <p>
+                            As a detail-oriented <strong>Full-stack Developer</strong>, I focus on constructing enterprise-grade web applications. I bridge the gap between reliable server-side engineering and beautiful, responsive client interfaces.
+                        </p>
+                        <p>
+                            My approach centers around writing robust, clean, type-safe code, leveraging advanced paradigms such as <strong>CQRS</strong> (Command Query Responsibility Segregation) and <strong>micro-interaction logic</strong> to deliver seamless, bug-free production systems.
+                        </p>
+                        
+                        <div class="info-counters">
+                            <div class="counter-item">
+                                <div class="counter-num">NestJS</div>
+                                <div class="counter-lbl">Backend Core</div>
+                            </div>
+                            <div class="counter-item">
+                                <div class="counter-num">React</div>
+                                <div class="counter-lbl">Frontend Console</div>
+                            </div>
+                            <div class="counter-item">
+                                <div class="counter-num">Omise</div>
+                                <div class="counter-lbl">Payment Ledger</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about-skills">
+                        <h3 class="skills-heading">My Technical Toolkit</h3>
+                        <div class="skills-categories">
+                            <!-- Category: Backend -->
+                            <div class="skills-cat-card glass">
+                                <h4><i data-lucide="server" class="cat-icon"></i> Backend & API</h4>
+                                <div class="skills-badges">
+                                    <span class="badge">NestJS</span>
+                                    <span class="badge">Node.js</span>
+                                    <span class="badge">TypeScript</span>
+                                    <span class="badge">Socket.IO (WS)</span>
+                                    <span class="badge">REST APIs</span>
+                                    <span class="badge">CQRS Architecture</span>
+                                </div>
+                            </div>
+
+                            <!-- Category: Frontend -->
+                            <div class="skills-cat-card glass">
+                                <h4><i data-lucide="layout" class="cat-icon"></i> Frontend & UI</h4>
+                                <div class="skills-badges">
+                                    <span class="badge">React 19</span>
+                                    <span class="badge">Vite</span>
+                                    <span class="badge">TanStack Router</span>
+                                    <span class="badge">TanStack Query</span>
+                                    <span class="badge">TanStack Table</span>
+                                    <span class="badge">Tailwind CSS</span>
+                                </div>
+                            </div>
+
+                            <!-- Category: Databases & Caching -->
+                            <div class="skills-cat-card glass">
+                                <h4><i data-lucide="database" class="cat-icon"></i> Database & Caching</h4>
+                                <div class="skills-badges">
+                                    <span class="badge">PostgreSQL</span>
+                                    <span class="badge">TypeORM</span>
+                                    <span class="badge">Redis Caching</span>
+                                    <span class="badge">SQL Optimization</span>
+                                </div>
+                            </div>
+
+                            <!-- Category: DevOps & Infrastructure -->
+                            <div class="skills-cat-card glass">
+                                <h4><i data-lucide="cpu" class="cat-icon"></i> DevOps & Infra</h4>
+                                <div class="skills-badges">
+                                    <span class="badge">AWS S3</span>
+                                    <span class="badge">Docker</span>
+                                    <span class="badge">Prometheus</span>
+                                    <span class="badge">GitLab CI/CD</span>
+                                    <span class="badge">Jest Testing</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Project (GGT Platform) Section -->
+        <section id="ggt-project" class="project-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Case Study</span>
+                    <h2 class="section-title">Featured Project Spotlight</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="project-showcase glass">
+                    <div class="project-visual">
+                        <div class="project-visual-overlay"></div>
+                        <div class="project-tech-ribbon">
+                            <span>NestJS</span>
+                            <span>React 19</span>
+                            <span>PostgreSQL</span>
+                            <span>Redis</span>
+                            <span>WebSockets</span>
+                        </div>
+                        <div class="project-graphic">
+                            <!-- Premium animated graphic representing GGT Platform -->
+                            <div class="server-rack">
+                                <div class="rack-row active"><span class="led"></span><span class="text">GGT BACKEND : NestJS Core</span></div>
+                                <div class="rack-row active"><span class="led"></span><span class="text">WEBSOCKETS : Dynamic Gateway</span></div>
+                                <div class="rack-row"><span class="led green"></span><span class="text">REDIS CACHE : Low Latency (0ms)</span></div>
+                                <div class="rack-row active"><span class="led"></span><span class="text">POSTGRESQL : Transaction Ledger</span></div>
+                            </div>
+                            <div class="chat-bubble-graphic bubble-1">
+                                <i data-lucide="message-square"></i> Live Chat Active
+                            </div>
+                            <div class="chat-bubble-graphic bubble-2">
+                                <i data-lucide="credit-card"></i> Pay Approved
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-details">
+                        <h3 class="project-name">GGT Platform <span class="badge-status">Production MVP</span></h3>
+                        <p class="project-desc">
+                            Designed and engineered a high-performance, transactional marketplace and vehicle operations platform. The system orchestrates secure user onboarding, complex payment ledger systems, and real-time operational communications.
+                        </p>
+                        
+                        <div class="project-features">
+                            <div class="feature-tab-nav" id="featureTabNav">
+                                <button class="tab-btn active" data-tab="chat">
+                                    <i data-lucide="message-square"></i> Real-time Chat
+                                </button>
+                                <button class="tab-btn" data-tab="payments">
+                                    <i data-lucide="shield-check"></i> Secure Payments
+                                </button>
+                                <button class="tab-btn" data-tab="backend">
+                                    <i data-lucide="git-branch"></i> CQRS & Cache
+                                </button>
+                            </div>
+
+                            <div class="feature-tab-content glass" id="featureTabContent">
+                                <!-- Chat Tab -->
+                                <div class="tab-pane active" id="tab-chat">
+                                    <h5>Real-Time WebSocket Chat Engine</h5>
+                                    <p>Developed a low-latency, bidirectional messaging service using NestJS WebSockets (Socket.IO) complete with active-user presence tracking and instant message delivery states.</p>
+                                    <ul>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> Low latency message delivery via custom Socket.IO adapter</li>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> Accurate online/offline presence tracking in high concurrency</li>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> Instant push states using Redis Pub/Sub</li>
+                                    </ul>
+                                </div>
+                                <!-- Payments Tab -->
+                                <div class="tab-pane" id="tab-payments">
+                                    <h5>Secured Payments & Compliant KYC</h5>
+                                    <p>Integrated Omise Gateway for secure, transaction-safe checkouts and designed an onboarding flow featuring secure Clerk Auth & KYC verification.</p>
+                                    <ul>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> Structured transactional ledger system to avoid race conditions</li>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> Webhook handler with automated signature validation and retries</li>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> Secure KYC funnel linked directly to user profile profiles</li>
+                                    </ul>
+                                </div>
+                                <!-- Backend Tab -->
+                                <div class="tab-pane" id="tab-backend">
+                                    <h5>Scalable Backend & CQRS Design</h5>
+                                    <p>Implemented Command Query Responsibility Segregation (CQRS) on PostgreSQL/TypeORM to decouple heavy writes, optimized with Redis and S3 presigned URLs.</p>
+                                    <ul>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> Decoupled write and read schemas for massive speed benefits</li>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> Redis layer caching heavy queries to decrease database stress by 75%</li>
+                                        <li><i data-lucide="check" class="bullet-icon"></i> S3 presigned upload URLs for secure and direct media storage handling</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live GitHub Showcase Section -->
+        <section id="github" class="github-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Open Source</span>
+                    <h2 class="section-title">Live GitHub Integration</h2>
+                    <p class="section-desc-sub">Fetches and displays active repositories in real-time. Type in any GitHub username to load projects!</p>
+                    <div class="section-divider"></div>
+                </div>
+
+                <!-- GitHub Fetch Controller -->
+                <div class="github-search-container glass">
+                    <div class="search-input-wrapper">
+                        <i data-lucide="github" class="search-icon"></i>
+                        <input type="text" id="github-username-input" value="Leon0102" placeholder="Enter GitHub username..." aria-label="GitHub Username">
+                    </div>
+                    <button class="btn btn-primary btn-glow" id="fetch-repos-btn">
+                        <i data-lucide="refresh-cw" class="btn-icon animate-spin-hover"></i> Fetch Repositories
+                    </button>
+                </div>
+
+                <div class="github-profile-card glass hide" id="github-profile-info">
+                    <img id="github-avatar" src="" alt="Avatar">
+                    <div class="profile-meta">
+                        <h4 id="github-name">Linh Nguyen</h4>
+                        <p id="github-bio">Full-stack Developer working with NestJS and React.</p>
+                        <div class="profile-stats">
+                            <span><strong id="github-public-repos">0</strong> Public Repos</span>
+                            <span><strong id="github-followers">0</strong> Followers</span>
+                            <span><i data-lucide="map-pin"></i> <span id="github-location">Vietnam</span></span>
+                        </div>
+                    </div>
+                    <a id="github-profile-link" href="https://github.com/Leon0102" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                        <i data-lucide="external-link"></i> GitHub Profile
+                    </a>
+                </div>
+
+                <!-- Repos Grid -->
+                <div class="repos-grid" id="repos-grid">
+                    <!-- Skeleton loaders will be dynamically placed here by JS -->
+                    <div class="skeleton-card glass">
+                        <div class="skeleton skeleton-title"></div>
+                        <div class="skeleton skeleton-desc"></div>
+                        <div class="skeleton skeleton-desc short"></div>
+                        <div class="skeleton-meta">
+                            <div class="skeleton skeleton-circle"></div>
+                            <div class="skeleton skeleton-badge"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card glass">
+                        <div class="skeleton skeleton-title"></div>
+                        <div class="skeleton skeleton-desc"></div>
+                        <div class="skeleton skeleton-desc short"></div>
+                        <div class="skeleton-meta">
+                            <div class="skeleton skeleton-circle"></div>
+                            <div class="skeleton skeleton-badge"></div>
+                        </div>
+                    </div>
+                    <div class="skeleton-card glass">
+                        <div class="skeleton skeleton-title"></div>
+                        <div class="skeleton skeleton-desc"></div>
+                        <div class="skeleton skeleton-desc short"></div>
+                        <div class="skeleton-meta">
+                            <div class="skeleton skeleton-circle"></div>
+                            <div class="skeleton skeleton-badge"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Career Timeline Section -->
+        <section id="experience" class="timeline-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Journey</span>
+                    <h2 class="section-title">Professional Experience</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="timeline">
+                    <!-- Timeline Item 1 -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-date">2024 - Present</div>
+                            <h4 class="timeline-role">Full-stack Developer</h4>
+                            <h5 class="timeline-company">Savvycom & GGT Platform</h5>
+                            <p>Architected backend rest APIs using NestJS, integrated Clerk/Omise payment funnels, set up automated testing scripts using Jest, and configured custom CI/CD workflows on GitLab.</p>
+                            <div class="timeline-badges">
+                                <span class="badge">NestJS</span>
+                                <span class="badge">React 19</span>
+                                <span class="badge">AWS S3</span>
+                                <span class="badge">Omise</span>
+                                <span class="badge">Docker</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 2 -->
+                    <div class="timeline-item right">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-date">2022 - 2024</div>
+                            <h4 class="timeline-role">Software Engineer</h4>
+                            <h5 class="timeline-company">JVPC & Beauty Ecosystems</h5>
+                            <p>Designed database schemas for content systems, developed robust GraphQL types in NestJS apps, implemented secure authentications, and containerized environments for Kubernetes gateways.</p>
+                            <div class="timeline-badges">
+                                <span class="badge">GraphQL</span>
+                                <span class="badge">NestJS</span>
+                                <span class="badge">Kubernetes</span>
+                                <span class="badge">Typescript</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section section-padding">
+            <div class="container">
+                <div class="section-header text-center">
+                    <span class="section-tag">Get In Touch</span>
+                    <h2 class="section-title">Let's Connect</h2>
+                    <div class="section-divider"></div>
+                </div>
+
+                <div class="contact-grid">
+                    <div class="contact-card glass">
+                        <h3>Let's collaborate on your next system</h3>
+                        <p>I'm open to discussing full-time opportunities, technical consultancies, or building custom architectural solutions from scratch.</p>
+                        
+                        <div class="contact-details-list">
+                            <a href="mailto:linhnlh2001@gmail.com" class="contact-detail-item">
+                                <i data-lucide="mail"></i>
+                                <div>
+                                    <h5>Email</h5>
+                                    <span>linhnlh2001@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="https://github.com/Leon0102" target="_blank" rel="noopener noreferrer" class="contact-detail-item">
+                                <i data-lucide="github"></i>
+                                <div>
+                                    <h5>GitHub</h5>
+                                    <span>github.com/Leon0102</span>
+                                </div>
+                            </a>
+                            <div class="contact-detail-item">
+                                <i data-lucide="map-pin"></i>
+                                <div>
+                                    <h5>Location</h5>
+                                    <span>Hanoi, Vietnam</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-form-container glass">
+                        <form id="contact-form" class="contact-form">
+                            <div class="form-group">
+                                <input type="text" id="form-name" required placeholder=" " aria-label="Your Name">
+                                <label for="form-name">Your Name</label>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="form-email" required placeholder=" " aria-label="Your Email">
+                                <label for="form-email">Your Email</label>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="form-message" rows="5" required placeholder=" " aria-label="Your Message"></textarea>
+                                <label for="form-message">Your Message</label>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary btn-block btn-glow" id="submit-btn">
+                                <span id="btn-text">Send Message</span>
+                                <i data-lucide="send" id="btn-icon-send"></i>
+                            </button>
+                        </form>
+                        
+                        <!-- Success Popup -->
+                        <div class="form-success-alert hide" id="form-success-alert">
+                            <i data-lucide="check-circle" class="success-icon animate-bounce"></i>
+                            <h4>Message Sent Successfully!</h4>
+                            <p>Thank you for reaching out, Leon will reply to your email shortly.</p>
+                            <button class="btn btn-secondary btn-sm" id="close-alert-btn">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>&copy; 2026 Leon Nguyen. All rights reserved.</p>
+            <div class="footer-socials">
+                <a href="https://github.com/Leon0102" target="_blank" rel="noopener noreferrer" title="GitHub"><i data-lucide="github"></i></a>
+                <a href="mailto:linhnlh2001@gmail.com" title="Email"><i data-lucide="mail"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lucide Icons CDN -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- JavaScript Application Logic -->
+    <script src="script.js"></script>
+</body>
+</html>
