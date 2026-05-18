@@ -1473,7 +1473,8 @@ h1, h2, h3, h4, h5, h6 {
 .contact-detail-item:hover {
     transform: translateX(5px);
 }
-.contact-detail-item i {
+.contact-detail-item > i,
+.contact-detail-item > svg {
     width: 48px;
     height: 48px;
     border-radius: var(--border-radius-md);
@@ -1486,7 +1487,8 @@ h1, h2, h3, h4, h5, h6 {
     flex-shrink: 0;
     transition: all var(--transition-fast);
 }
-.contact-detail-item:hover i {
+.contact-detail-item:hover > i,
+.contact-detail-item:hover > svg {
     border-color: var(--color-primary);
     box-shadow: 0 0 10px var(--color-glow);
 }
