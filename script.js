@@ -128,9 +128,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const typedTextEl = document.getElementById('typed-text');
     const words = [
         "Full-stack Developer",
-        "NestJS Architect",
-        "React 19 Specialist",
-        "Technical Problem Solver"
+        "NestJS & Node.js Expert",
+        "Microservices Architect",
+        "React & Angular Developer"
     ];
     let wordIndex = 0;
     let charIndex = 0;

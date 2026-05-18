@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leon Nguyen | Full-stack Developer Portfolio</title>
-    <meta name="description" content="Professional portfolio of Leon Nguyen, a Full-stack Developer specializing in high-performance NestJS backends, React 19 dashboards, and scalable software architectures.">
+    <title>Nguyen Le Hoang Linh | Full-stack Developer Portfolio</title>
+    <meta name="description" content="Professional portfolio of Nguyen Le Hoang Linh (Leon Nguyen), a Full-stack Developer specializing in microservices, NestJS, React 19, Angular, gRPC, Kafka, and Apollo Federation.">
     <!-- Google Fonts: Space Grotesk (Tech/Modern) & Inter (Clean body) -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,9 +27,10 @@
             
             <nav class="nav-menu" id="navMenu">
                 <a href="#hero" class="nav-link active">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#ggt-project" class="nav-link">Featured Project</a>
+                <a href="#about" class="nav-link">About & Skills</a>
+                <a href="#projects" class="nav-link">Featured Work</a>
                 <a href="#github" class="nav-link">GitHub</a>
+                <a href="#experience" class="nav-link">Experience</a>
                 <a href="#contact" class="nav-link">Contact</a>
             </nav>
 
@@ -37,6 +38,9 @@
                 <button class="theme-toggle-btn" id="themeToggleBtn" aria-label="Customize Theme" title="Customize Theme">
                     <i data-lucide="palette"></i>
                 </button>
+                <a href="CV-NguyenLeHoangLinh.pdf" target="_blank" download class="btn btn-secondary btn-sm">
+                    <i data-lucide="download" class="btn-icon"></i> Resume
+                </a>
                 <a href="#contact" class="btn btn-primary btn-sm btn-glow">Hire Me</a>
                 <button class="mobile-menu-toggle" id="menuToggle" aria-label="Toggle Menu">
                     <span class="bar"></span>
@@ -85,21 +89,21 @@
                 <div class="hero-content">
                     <div class="hero-badge">
                         <span class="pulse-indicator"></span>
-                        Available for Full-time Roles & Contracts
+                        Full-stack Developer @ Savvycom Software
                     </div>
                     <h1 class="hero-title">
-                        Hi, I'm Leon Nguyen<br>
+                        Nguyen Le Hoang Linh<br>
                         <span class="gradient-text typing-container"><span id="typed-text"></span><span class="typed-cursor">|</span></span>
                     </h1>
                     <p class="hero-subtitle">
-                        I engineer high-performance full-stack systems, specializing in scalable backends with <strong>NestJS</strong> & <strong>TypeORM</strong> and dynamic admin panels using <strong>React 19</strong> & <strong>TanStack</strong>.
+                        I build highly transactional full-stack applications, specializing in <strong>NestJS Microservices</strong>, <strong>GraphQL Federation</strong>, and high-performance frontend interfaces (<strong>React 19 & Angular</strong>).
                     </p>
                     <div class="hero-buttons">
-                        <a href="#ggt-project" class="btn btn-primary btn-lg btn-glow">
-                            <i data-lucide="eye" class="btn-icon"></i> View My Work
+                        <a href="#projects" class="btn btn-primary btn-lg btn-glow">
+                            <i data-lucide="eye" class="btn-icon"></i> Featured Work
                         </a>
-                        <a href="#contact" class="btn btn-secondary btn-lg">
-                            <i data-lucide="mail" class="btn-icon"></i> Contact Me
+                        <a href="CV-NguyenLeHoangLinh.pdf" target="_blank" download class="btn btn-secondary btn-lg">
+                            <i data-lucide="download" class="btn-icon"></i> Get CV / Resume
                         </a>
                     </div>
                 </div>
@@ -111,26 +115,27 @@
                             <span class="dot red"></span>
                             <span class="dot yellow"></span>
                             <span class="dot green"></span>
-                            <span class="file-tab"><i data-lucide="terminal"></i> fullstack-dev.ts</span>
+                            <span class="file-tab"><i data-lucide="terminal"></i> developer-profile.ts</span>
                         </div>
                         <div class="card-code">
                             <pre><code><span class="keyword">const</span> developer = {
-    name: <span class="string">'Leon Nguyen'</span>,
-    role: <span class="string">'Fullstack Developer'</span>,
-    skills: [
-        <span class="string">'NestJS'</span>, <span class="string">'React 19'</span>, <span class="string">'TypeScript'</span>,
-        <span class="string">'PostgreSQL'</span>, <span class="string">'Redis'</span>, <span class="string">'WebSockets'</span>,
-        <span class="string">'Docker'</span>, <span class="string">'AWS S3'</span>, <span class="string">'CI/CD'</span>
+    name: <span class="string">'Nguyen Le Hoang Linh'</span>,
+    alias: <span class="string">'Leon Nguyen'</span>,
+    education: <span class="string">'Da Nang University Of Technology'</span>,
+    GPA: <span class="number">3.52</span>,
+    expertise: [
+        <span class="string">'Microservices'</span>, <span class="string">'NestJS'</span>, <span class="string">'React'</span>,
+        <span class="string">'Angular'</span>, <span class="string">'Kafka'</span>, <span class="string">'GraphQL'</span>,
+        <span class="string">'gRPC'</span>, <span class="string">'PostgreSQL'</span>, <span class="string">'.Net 8'</span>
     ],
-    passion: <span class="string">'High-performance architecture'</span>,
-    codeEfficiency: <span class="number">0.99</span>
+    motto: <span class="string">'100% strength and intellect to learn and build'</span>
 };
 
-<span class="comment">// Resolving business problems...</span>
-<span class="keyword">await</span> developer.buildScalableSystem({
-    performance: <span class="string">'low-latency'</span>,
-    security: <span class="string">'top-tier'</span>,
-    UX: <span class="string">'premium'</span>
+<span class="comment">// Deploying architectural systems...</span>
+<span class="keyword">await</span> developer.architectPlatform({
+    messaging: <span class="string">'Kafka & RabbitMQ'</span>,
+    dataConsistency: <span class="string">'TypeORM & Prisma'</span>,
+    containerization: <span class="string">'Docker'</span>
 });</code></pre>
                         </div>
                     </div>
@@ -147,49 +152,55 @@
             <div class="container">
                 <div class="section-header text-center">
                     <span class="section-tag">Overview</span>
-                    <h2 class="section-title">About My Expertise</h2>
+                    <h2 class="section-title">About Me & Skills</h2>
                     <div class="section-divider"></div>
                 </div>
 
                 <div class="about-grid">
                     <div class="about-info glass">
-                        <h3 class="about-heading">I craft robust backends & premium frontends</h3>
+                        <h3 class="about-heading">Passionate Backend & Full-stack Engineer</h3>
                         <p>
-                            As a detail-oriented <strong>Full-stack Developer</strong>, I focus on constructing enterprise-grade web applications. I bridge the gap between reliable server-side engineering and beautiful, responsive client interfaces.
+                            Hi, I'm <strong>Linh (Leon Nguyen)</strong>, a dedicated Web Developer based in **Da Nang, Vietnam**. I specialize in creating advanced backend ecosystems and connecting them to robust, responsive client dashboards.
                         </p>
                         <p>
-                            My approach centers around writing robust, clean, type-safe code, leveraging advanced paradigms such as <strong>CQRS</strong> (Command Query Responsibility Segregation) and <strong>micro-interaction logic</strong> to deliver seamless, bug-free production systems.
+                            Holding an IT Bachelor's Degree from **Da Nang University Of Technology** (GPA: <strong>3.52</strong>), I possess a solid academic framework and apply it to complex production requirements, such as **Domain-Driven Design (DDD)**, **Apollo GraphQL Federation**, and **event-driven microservices** with Kafka/RabbitMQ.
+                        </p>
+                        <p>
+                            Fluent in both **English** and **Vietnamese**, I have a proactive learning mindset, comfortable working in Git/GitLab team environments, and presenting software systems confidently.
                         </p>
                         
                         <div class="info-counters">
                             <div class="counter-item">
-                                <div class="counter-num">NestJS</div>
-                                <div class="counter-lbl">Backend Core</div>
+                                <div class="counter-num">Node.js</div>
+                                <div class="counter-lbl">NestJS & Express</div>
                             </div>
                             <div class="counter-item">
-                                <div class="counter-num">React</div>
-                                <div class="counter-lbl">Frontend Console</div>
+                                <div class="counter-num">React/Angular</div>
+                                <div class="counter-lbl">Frontend SDKs</div>
                             </div>
                             <div class="counter-item">
-                                <div class="counter-num">Omise</div>
-                                <div class="counter-lbl">Payment Ledger</div>
+                                <div class="counter-num">Microservices</div>
+                                <div class="counter-lbl">gRPC, Kafka, Kong</div>
                             </div>
                         </div>
                     </div>
 
                     <div class="about-skills">
-                        <h3 class="skills-heading">My Technical Toolkit</h3>
+                        <h3 class="skills-heading">Technical Toolkit</h3>
                         <div class="skills-categories">
                             <!-- Category: Backend -->
                             <div class="skills-cat-card glass">
-                                <h4><i data-lucide="server" class="cat-icon"></i> Backend & API</h4>
+                                <h4><i data-lucide="server" class="cat-icon"></i> Backend & Architecture</h4>
                                 <div class="skills-badges">
                                     <span class="badge">NestJS</span>
                                     <span class="badge">Node.js</span>
-                                    <span class="badge">TypeScript</span>
-                                    <span class="badge">Socket.IO (WS)</span>
+                                    <span class="badge">.Net 8</span>
+                                    <span class="badge">gRPC Gateway</span>
+                                    <span class="badge">Kafka Event Broker</span>
+                                    <span class="badge">RabbitMQ Message Queue</span>
+                                    <span class="badge">Apollo Federation GraphQL</span>
                                     <span class="badge">REST APIs</span>
-                                    <span class="badge">CQRS Architecture</span>
+                                    <span class="badge">DDD (Domain-Driven Design)</span>
                                 </div>
                             </div>
 
@@ -197,35 +208,43 @@
                             <div class="skills-cat-card glass">
                                 <h4><i data-lucide="layout" class="cat-icon"></i> Frontend & UI</h4>
                                 <div class="skills-badges">
-                                    <span class="badge">React 19</span>
-                                    <span class="badge">Vite</span>
-                                    <span class="badge">TanStack Router</span>
-                                    <span class="badge">TanStack Query</span>
-                                    <span class="badge">TanStack Table</span>
-                                    <span class="badge">Tailwind CSS</span>
+                                    <span class="badge">React 18 & 19</span>
+                                    <span class="badge">Angular</span>
+                                    <span class="badge">Vite & Turbo</span>
+                                    <span class="badge">TanStack (Router/Query/Table)</span>
+                                    <span class="badge">Shadcn UI / Radix</span>
+                                    <span class="badge">Tailwind CSS v4</span>
+                                    <span class="badge">Material UI</span>
+                                    <span class="badge">Bootstrap</span>
                                 </div>
                             </div>
 
-                            <!-- Category: Databases & Caching -->
+                            <!-- Category: Databases -->
                             <div class="skills-cat-card glass">
-                                <h4><i data-lucide="database" class="cat-icon"></i> Database & Caching</h4>
+                                <h4><i data-lucide="database" class="cat-icon"></i> Data Persistence</h4>
                                 <div class="skills-badges">
                                     <span class="badge">PostgreSQL</span>
+                                    <span class="badge">MongoDB</span>
+                                    <span class="badge">MySQL</span>
+                                    <span class="badge">Prisma ORM</span>
                                     <span class="badge">TypeORM</span>
-                                    <span class="badge">Redis Caching</span>
-                                    <span class="badge">SQL Optimization</span>
+                                    <span class="badge">Redis Caching & Job Queues</span>
+                                    <span class="badge">Elasticsearch</span>
                                 </div>
                             </div>
 
                             <!-- Category: DevOps & Infrastructure -->
                             <div class="skills-cat-card glass">
-                                <h4><i data-lucide="cpu" class="cat-icon"></i> DevOps & Infra</h4>
+                                <h4><i data-lucide="cpu" class="cat-icon"></i> DevOps, Clouds & Tools</h4>
                                 <div class="skills-badges">
-                                    <span class="badge">AWS S3</span>
+                                    <span class="badge">AWS (S3, SES, Beanstalk)</span>
                                     <span class="badge">Docker</span>
-                                    <span class="badge">Prometheus</span>
+                                    <span class="badge">Kong API Gateway</span>
                                     <span class="badge">GitLab CI/CD</span>
-                                    <span class="badge">Jest Testing</span>
+                                    <span class="badge">Jest & Cypress</span>
+                                    <span class="badge">FFmpeg / Sharp</span>
+                                    <span class="badge">Linux Environment</span>
+                                    <span class="badge">Photoshop / Figma</span>
                                 </div>
                             </div>
                         </div>
@@ -234,93 +253,161 @@
             </div>
         </section>
 
-        <!-- Featured Project (GGT Platform) Section -->
-        <section id="ggt-project" class="project-section section-padding">
+        <!-- Featured Projects Showcase Section -->
+        <section id="projects" class="project-section section-padding">
             <div class="container">
                 <div class="section-header text-center">
-                    <span class="section-tag">Case Study</span>
-                    <h2 class="section-title">Featured Project Spotlight</h2>
+                    <span class="section-tag">Portfolio</span>
+                    <h2 class="section-title">Featured Enterprise Projects</h2>
+                    <p class="section-desc-sub" style="max-width: 600px; margin: 0 auto; color: var(--text-secondary);">Here are the core software architectures I have designed and engineered across various companies, from scalable microservices to transaction ledgers.</p>
                     <div class="section-divider"></div>
                 </div>
 
+                <!-- Showcase 1: IMB Platform (Savvycom Software) -->
+                <div class="project-showcase glass" style="margin-bottom: 4rem;">
+                    <div class="project-visual">
+                        <div class="project-visual-overlay"></div>
+                        <div class="project-tech-ribbon">
+                            <span>NestJS</span>
+                            <span>React 18</span>
+                            <span>GraphQL</span>
+                            <span>Elasticsearch</span>
+                            <span>Kafka</span>
+                        </div>
+                        <div class="project-graphic">
+                            <div class="server-rack">
+                                <div class="rack-row active"><span class="led"></span><span class="text">APOLLO FEDERATION GATEWAY</span></div>
+                                <div class="rack-row active"><span class="led green"></span><span class="text">IAM MICROSERVICE (gRPC)</span></div>
+                                <div class="rack-row active"><span class="led green"></span><span class="text">KAFKA EVENT BROKER (Active)</span></div>
+                                <div class="rack-row"><span class="led"></span><span class="text">ELASTICSEARCH ENGINE</span></div>
+                            </div>
+                            <div class="chat-bubble-graphic bubble-1" style="background-color: #2563eb; color: #fff;">
+                                <i data-lucide="layers" style="color: #fff;"></i> GraphQL Federated
+                            </div>
+                            <div class="chat-bubble-graphic bubble-2" style="background-color: #10b981; color: #fff;">
+                                <i data-lucide="activity" style="color: #fff;"></i> Media FFmpeg Active
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-details">
+                        <h3 class="project-name">IMB Beauty & Medical Platform <span class="badge-status">Savvycom</span></h3>
+                        <p class="project-desc">
+                            A federated, microservices-based product platform designed for the beauty and medical industry. The system supports complex identity access management, product catalogs, and automated content moderation.
+                        </p>
+                        
+                        <div class="project-features">
+                            <div class="feature-tab-content glass">
+                                <h5>Apollo Federated Architecture</h5>
+                                <p>Designed and built a federated GraphQL API composed of multiple NestJS microservices (IAM, Content, Media, Search) connected via an Apollo Gateway.</p>
+                                <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem;">
+                                    <li><i data-lucide="check" class="bullet-icon"></i> **Event-Driven Communication**: Integrated Kafka for asynchronous, low-latency communication between services.</li>
+                                    <li><i data-lucide="check" class="bullet-icon"></i> **High-Performance Search**: Built a specialized search microservice using Elasticsearch for lightning-fast catalog querying.</li>
+                                    <li><i data-lucide="check" class="bullet-icon"></i> **Media Processing**: Integrated FFmpeg and Sharp for dynamic video transcoding and image processing queues in Redis.</li>
+                                    <li><i data-lucide="check" class="bullet-icon"></i> **Admin Console**: Engineered a premium dashboard with React 18, Radix UI (Shadcn), TanStack Query, and Apollo Client.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Showcase 2: GGT Platform (Enlab Software) -->
                 <div class="project-showcase glass">
                     <div class="project-visual">
                         <div class="project-visual-overlay"></div>
                         <div class="project-tech-ribbon">
                             <span>NestJS</span>
                             <span>React 19</span>
-                            <span>PostgreSQL</span>
-                            <span>Redis</span>
-                            <span>WebSockets</span>
+                            <span>Socket.IO</span>
+                            <span>Omise Pay</span>
+                            <span>AWS S3</span>
                         </div>
                         <div class="project-graphic">
-                            <!-- Premium animated graphic representing GGT Platform -->
                             <div class="server-rack">
-                                <div class="rack-row active"><span class="led"></span><span class="text">GGT BACKEND : NestJS Core</span></div>
-                                <div class="rack-row active"><span class="led"></span><span class="text">WEBSOCKETS : Dynamic Gateway</span></div>
-                                <div class="rack-row"><span class="led green"></span><span class="text">REDIS CACHE : Low Latency (0ms)</span></div>
-                                <div class="rack-row active"><span class="led"></span><span class="text">POSTGRESQL : Transaction Ledger</span></div>
+                                <div class="rack-row active"><span class="led"></span><span class="text">GGT BACKEND API : NestJS</span></div>
+                                <div class="rack-row active"><span class="led"></span><span class="text">SOCKET.IO MESSAGING SERVER</span></div>
+                                <div class="rack-row"><span class="led green"></span><span class="text">REDIS CACHE (0ms latency)</span></div>
+                                <div class="rack-row active"><span class="led"></span><span class="text">OMISE TRANSACTION GATEWAY</span></div>
                             </div>
                             <div class="chat-bubble-graphic bubble-1">
-                                <i data-lucide="message-square"></i> Live Chat Active
+                                <i data-lucide="message-square"></i> Real-time Chat
                             </div>
                             <div class="chat-bubble-graphic bubble-2">
-                                <i data-lucide="credit-card"></i> Pay Approved
+                                <i data-lucide="credit-card"></i> Pay Webhook OK
                             </div>
                         </div>
                     </div>
 
                     <div class="project-details">
-                        <h3 class="project-name">GGT Platform <span class="badge-status">Production MVP</span></h3>
+                        <h3 class="project-name">GGT Operations & Marketplace <span class="badge-status">Enlab</span></h3>
                         <p class="project-desc">
-                            Designed and engineered a high-performance, transactional marketplace and vehicle operations platform. The system orchestrates secure user onboarding, complex payment ledger systems, and real-time operational communications.
+                            A highly transactional full-stack marketplace and vehicle operations platform featuring real-time communication modules, secure financial ledgers, and compliant user KYC onboarding.
                         </p>
                         
                         <div class="project-features">
-                            <div class="feature-tab-nav" id="featureTabNav">
-                                <button class="tab-btn active" data-tab="chat">
-                                    <i data-lucide="message-square"></i> Real-time Chat
-                                </button>
-                                <button class="tab-btn" data-tab="payments">
-                                    <i data-lucide="shield-check"></i> Secure Payments
-                                </button>
-                                <button class="tab-btn" data-tab="backend">
-                                    <i data-lucide="git-branch"></i> CQRS & Cache
-                                </button>
+                            <div class="feature-tab-content glass">
+                                <h5>Relational Ledgers & Real-Time Engines</h5>
+                                <p>Architected backend REST APIs using NestJS and CQRS patterns, coupled with an advanced React 19 administration panel.</p>
+                                <ul style="list-style: none; display: flex; flex-direction: column; gap: 0.5rem; margin-top: 1rem;">
+                                    <li><i data-lucide="check" class="bullet-icon"></i> **Low-latency Chat**: Built a customized WebSocket gateway (Socket.IO) with user presence tracking and status state machines.</li>
+                                    <li><i data-lucide="check" class="bullet-icon"></i> **OMISE Payment Integration**: Engineered a secure ledger checkout funnel handling webhooks, refunds, and voucher rule validations.</li>
+                                    <li><i data-lucide="check" class="bullet-icon"></i> **TypeORM & PostgreSQL**: Created optimized relational schemas, decoupling high-frequency writes and applying Redis query caching.</li>
+                                    <li><i data-lucide="check" class="bullet-icon"></i> **Vite & React 19 Frontend**: Developed a lightweight dashboard using TanStack Router/Query, Zustand, and Tailwind CSS v4.</li>
+                                </ul>
                             </div>
+                        </div>
+                    </div>
+                </div>
 
-                            <div class="feature-tab-content glass" id="featureTabContent">
-                                <!-- Chat Tab -->
-                                <div class="tab-pane active" id="tab-chat">
-                                    <h5>Real-Time WebSocket Chat Engine</h5>
-                                    <p>Developed a low-latency, bidirectional messaging service using NestJS WebSockets (Socket.IO) complete with active-user presence tracking and instant message delivery states.</p>
-                                    <ul>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> Low latency message delivery via custom Socket.IO adapter</li>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> Accurate online/offline presence tracking in high concurrency</li>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> Instant push states using Redis Pub/Sub</li>
-                                    </ul>
-                                </div>
-                                <!-- Payments Tab -->
-                                <div class="tab-pane" id="tab-payments">
-                                    <h5>Secured Payments & Compliant KYC</h5>
-                                    <p>Integrated Omise Gateway for secure, transaction-safe checkouts and designed an onboarding flow featuring secure Clerk Auth & KYC verification.</p>
-                                    <ul>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> Structured transactional ledger system to avoid race conditions</li>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> Webhook handler with automated signature validation and retries</li>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> Secure KYC funnel linked directly to user profile profiles</li>
-                                    </ul>
-                                </div>
-                                <!-- Backend Tab -->
-                                <div class="tab-pane" id="tab-backend">
-                                    <h5>Scalable Backend & CQRS Design</h5>
-                                    <p>Implemented Command Query Responsibility Segregation (CQRS) on PostgreSQL/TypeORM to decouple heavy writes, optimized with Redis and S3 presigned URLs.</p>
-                                    <ul>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> Decoupled write and read schemas for massive speed benefits</li>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> Redis layer caching heavy queries to decrease database stress by 75%</li>
-                                        <li><i data-lucide="check" class="bullet-icon"></i> S3 presigned upload URLs for secure and direct media storage handling</li>
-                                    </ul>
-                                </div>
+                <!-- Secondary Projects Grid -->
+                <div class="section-header text-center" style="margin-top: 6rem; margin-bottom: 2rem;">
+                    <h3 class="section-title" style="font-size: 1.75rem;">Other Core Projects</h3>
+                    <div class="section-divider" style="width: 40px; margin: 1rem auto;"></div>
+                </div>
+                
+                <div class="repos-grid">
+                    <!-- Secondary Project: MEP -->
+                    <div class="repo-card glass" style="height: 250px;">
+                        <div>
+                            <div class="repo-header">
+                                <span class="repo-name">MEP Educational Platform</span>
+                                <i data-lucide="graduation-cap" class="repo-icon-git"></i>
                             </div>
+                            <p class="repo-description">A modern and accessible platform for delivering educational content. Features Domain-Driven Design (DDD), Kong API Gateway authorization, and strict microservices communication.</p>
+                        </div>
+                        <div class="repo-footer">
+                            <span class="repo-lang"><span class="lang-dot" style="background-color: #3178c6"></span> NestJS, gRPC, RabbitMQ</span>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.1rem 0.5rem;">Microservices</span>
+                        </div>
+                    </div>
+
+                    <!-- Secondary Project: Bio Link Builder -->
+                    <div class="repo-card glass" style="height: 250px;">
+                        <div>
+                            <div class="repo-header">
+                                <span class="repo-name">Bio Link Builder CMS</span>
+                                <i data-lucide="link" class="repo-icon-git"></i>
+                            </div>
+                            <p class="repo-description">A quick website builder designed to level up your link in bio. Allows users to showcase portfolios, integrate Facebook/Google Auth, track dynamic visitor analytics, and receive push notifications.</p>
+                        </div>
+                        <div class="repo-footer">
+                            <span class="repo-lang"><span class="lang-dot" style="background-color: #f1e05a"></span> NestJS, Angular, AWS Beanstalk</span>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.1rem 0.5rem;">Fullstack</span>
+                        </div>
+                    </div>
+
+                    <!-- Secondary Project: EGP RC Hobby App -->
+                    <div class="repo-card glass" style="height: 250px;">
+                        <div>
+                            <div class="repo-header">
+                                <span class="repo-name">EGP Hobby Store Backend</span>
+                                <i data-lucide="toy-brick" class="repo-icon-git"></i>
+                            </div>
+                            <p class="repo-description">The backend engine for a premium R/C hobby store in Hong Kong. Manages users, challenges, activities, and vehicle history to gamify standard driving sessions.</p>
+                        </div>
+                        <div class="repo-footer">
+                            <span class="repo-lang"><span class="lang-dot" style="background-color: #3178c6"></span> NestJS, TypeORM, Redis</span>
+                            <span class="badge" style="font-size: 0.7rem; padding: 0.1rem 0.5rem;">API Core</span>
                         </div>
                     </div>
                 </div>
@@ -351,12 +438,12 @@
                 <div class="github-profile-card glass hide" id="github-profile-info">
                     <img id="github-avatar" src="" alt="Avatar">
                     <div class="profile-meta">
-                        <h4 id="github-name">Linh Nguyen</h4>
+                        <h4 id="github-name">Nguyen Le Hoang Linh</h4>
                         <p id="github-bio">Full-stack Developer working with NestJS and React.</p>
                         <div class="profile-stats">
                             <span><strong id="github-public-repos">0</strong> Public Repos</span>
                             <span><strong id="github-followers">0</strong> Followers</span>
-                            <span><i data-lucide="map-pin"></i> <span id="github-location">Vietnam</span></span>
+                            <span><i data-lucide="map-pin"></i> <span id="github-location">Da Nang, Vietnam</span></span>
                         </div>
                     </div>
                     <a id="github-profile-link" href="https://github.com/Leon0102" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
@@ -403,42 +490,62 @@
             <div class="container">
                 <div class="section-header text-center">
                     <span class="section-tag">Journey</span>
-                    <h2 class="section-title">Professional Experience</h2>
+                    <h2 class="section-title">Professional Journey</h2>
                     <div class="section-divider"></div>
                 </div>
 
                 <div class="timeline">
-                    <!-- Timeline Item 1 -->
+                    <!-- Timeline Item 1: Savvycom Software -->
                     <div class="timeline-item left">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content glass">
-                            <div class="timeline-date">2024 - Present</div>
+                            <div class="timeline-date">05/2024 - Present</div>
                             <h4 class="timeline-role">Full-stack Developer</h4>
-                            <h5 class="timeline-company">Savvycom & GGT Platform</h5>
-                            <p>Architected backend rest APIs using NestJS, integrated Clerk/Omise payment funnels, set up automated testing scripts using Jest, and configured custom CI/CD workflows on GitLab.</p>
+                            <h5 class="timeline-company">Savvycom Software</h5>
+                            <p>Architected federated GraphQL microservices (apollo federation gateway), managed IAM gateway policies via Kong, structured Elasticsearch search engines, and engineered gRPC and RabbitMQ services for the medical, beauty, and education industries.</p>
                             <div class="timeline-badges">
                                 <span class="badge">NestJS</span>
-                                <span class="badge">React 19</span>
-                                <span class="badge">AWS S3</span>
-                                <span class="badge">Omise</span>
-                                <span class="badge">Docker</span>
+                                <span class="badge">React 18</span>
+                                <span class="badge">GraphQL</span>
+                                <span class="badge">Kafka</span>
+                                <span class="badge">gRPC</span>
+                                <span class="badge">Elasticsearch</span>
                             </div>
                         </div>
                     </div>
 
-                    <!-- Timeline Item 2 -->
+                    <!-- Timeline Item 2: Enlab Software -->
                     <div class="timeline-item right">
                         <div class="timeline-dot"></div>
                         <div class="timeline-content glass">
-                            <div class="timeline-date">2022 - 2024</div>
-                            <h4 class="timeline-role">Software Engineer</h4>
-                            <h5 class="timeline-company">JVPC & Beauty Ecosystems</h5>
-                            <p>Designed database schemas for content systems, developed robust GraphQL types in NestJS apps, implemented secure authentications, and containerized environments for Kubernetes gateways.</p>
+                            <div class="timeline-date">05/2022 - 05/2024</div>
+                            <h4 class="timeline-role">Full-stack Developer</h4>
+                            <h5 class="timeline-company">Enlab Software</h5>
+                            <p>Developed core marketplace product MVPs, integrated secure checkouts with Omise Payment webhooks, set up real-time bidirectional Socket.io chat adapters, and optimized PostgreSQL transactions with Redis caching rules.</p>
                             <div class="timeline-badges">
-                                <span class="badge">GraphQL</span>
                                 <span class="badge">NestJS</span>
-                                <span class="badge">Kubernetes</span>
-                                <span class="badge">Typescript</span>
+                                <span class="badge">React 19</span>
+                                <span class="badge">PostgreSQL</span>
+                                <span class="badge">Socket.io</span>
+                                <span class="badge">TypeORM</span>
+                                <span class="badge">AWS S3</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Timeline Item 3: Da Nang University of Technology -->
+                    <div class="timeline-item left">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content glass">
+                            <div class="timeline-date">09/2019 - 06/2023</div>
+                            <h4 class="timeline-role">Bachelor of Information Technology</h4>
+                            <h5 class="timeline-company">Da Nang University of Technology</h5>
+                            <p>Completed intensive training in computer science, software engineering patterns, databases, and network architectures. Graduated with an outstanding **GPA of 3.52**.</p>
+                            <div class="timeline-badges">
+                                <span class="badge">Computer Science</span>
+                                <span class="badge">Algorithms</span>
+                                <span class="badge">Databases</span>
+                                <span class="badge">Software Design</span>
                             </div>
                         </div>
                     </div>
@@ -458,7 +565,7 @@
                 <div class="contact-grid">
                     <div class="contact-card glass">
                         <h3>Let's collaborate on your next system</h3>
-                        <p>I'm open to discussing full-time opportunities, technical consultancies, or building custom architectural solutions from scratch.</p>
+                        <p>I am open to full-time technical opportunities, consulting, and building scalable cloud-native microservices from the ground up.</p>
                         
                         <div class="contact-details-list">
                             <a href="mailto:linhnlh2001@gmail.com" class="contact-detail-item">
@@ -466,6 +573,13 @@
                                 <div>
                                     <h5>Email</h5>
                                     <span>linhnlh2001@gmail.com</span>
+                                </div>
+                            </a>
+                            <a href="tel:0945760029" class="contact-detail-item">
+                                <i data-lucide="phone"></i>
+                                <div>
+                                    <h5>Phone</h5>
+                                    <span>0945760029</span>
                                 </div>
                             </a>
                             <a href="https://github.com/Leon0102" target="_blank" rel="noopener noreferrer" class="contact-detail-item">
@@ -479,7 +593,7 @@
                                 <i data-lucide="map-pin"></i>
                                 <div>
                                     <h5>Location</h5>
-                                    <span>Hanoi, Vietnam</span>
+                                    <span>K257A/27 Truong Chinh, Da Nang, Viet Nam</span>
                                 </div>
                             </div>
                         </div>
@@ -510,7 +624,7 @@
                         <div class="form-success-alert hide" id="form-success-alert">
                             <i data-lucide="check-circle" class="success-icon animate-bounce"></i>
                             <h4>Message Sent Successfully!</h4>
-                            <p>Thank you for reaching out, Leon will reply to your email shortly.</p>
+                            <p>Thank you for reaching out. Linh will reply to your email shortly.</p>
                             <button class="btn btn-secondary btn-sm" id="close-alert-btn">Close</button>
                         </div>
                     </div>
@@ -522,7 +636,7 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container footer-content">
-            <p>&copy; 2026 Leon Nguyen. All rights reserved.</p>
+            <p>&copy; 2026 Nguyen Le Hoang Linh. All rights reserved.</p>
             <div class="footer-socials">
                 <a href="https://github.com/Leon0102" target="_blank" rel="noopener noreferrer" title="GitHub"><i data-lucide="github"></i></a>
                 <a href="mailto:linhnlh2001@gmail.com" title="Email"><i data-lucide="mail"></i></a>

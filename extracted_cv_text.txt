@@ -1,0 +1,223 @@
+
+--- PAGE 1 ---
+K257A/27 Truong Chinh, Da
+Nang, Viet Nam
+https://github.com/Leon0102
+0945760029linhnlh2001@gmail.comCONTACT
+ME
+EDUCATIONBACKEND
+DEVELOPER
+NGUYEN LE HOANG LINH
+SUMMARY
+Hi, I'm Linh, a web developer from Da Nang, Vietnam.
+Currently I am working on Nodejs and Angular. Besides, I am
+an easygoing person, ready to help people in my ability,
+capable of making public presentations. Because youth need
+many things to learn, I am willing to learn everything with
+100% strength and intellect. Fluent in 2 languages English
+and Vietnamese. 
+Da Nang University Of Technology
+SOFT
+SKILL
+Time management
+Problem solving
+Communication
+Quick learner
+Team work
+Using Github and TrelloTECHNICAL
+SKILL
+Technologies:
+Nodejs
+Nestjs
+Reactjs
+Cypress
+UI Framework: Material UI,
+Bootstrap, TailWindCSSEXPERIENCE
+SAVVYCOM SOFTWARE 05/2024
+-
+NOWBachelor's degree in Information
+Technology
+09/2019 - 06/2023
+GPA: 3.52
+Resource Management:Git,
+GitHub, Gitlab
+Workflow Management:
+Slack, Trello
+Environment: Linux,
+Docker
+Design Tools: Photoshop,
+Illustrator, Figma
+Database: SQL, MySQL,
+PostgreSQL, MongoDBTOOLSENLAB SOFTWARE 05/2022
+-
+05/2024
+Position: Fullstack Developer
+Description: Developed a comprehensive full-stack product
+platform (MVP) consisting of a scalable NestJS REST API and
+a premium React-based admin console. The system
+orchestrates complex workflows including user KYC, vehicle
+catalog management, Omise payment integration, real-time
+communication, and automated notification services.
+Technologies: NestJS, PostgreSQL, TypeORM, Redis,
+Socket.IO, JWT, Prometheus. React 19, Vite, TanStack
+(Router/Query/Table), Tailwind v4, Zustand. AWS S3,
+Docker, GitLab CI/CD, Omise, Twilio, Firebase.
+API & Architecture: Designed and implemented modular
+REST APIs and domain-driven services (Auth, KYC,
+Payments, Chat) using NestJS and CQRS patterns.
+Data Modeling: Architected relational schemas with
+TypeORM and PostgreSQL, ensuring high transactional
+consistency and optimized query performance.
+Frontend Development: Engineered a modern Admin UI with
+React 19, Vite, and Tailwind CSS v4, focusing on complex
+data handling via the TanStack ecosystem.
+System Integration: Integrated 3rd-party services including
+AWS S3 (Media), Omise (Payments), Twilio/Firebase
+(Notifications), and Clerk (Authentication).
+Real-time & Monitoring: Built real-time messaging using
+Socket.io and implemented system observability via
+Prometheus metrics.
+Quality Assurance: Maintained code integrity through
+rigorous Unit/E2E testing (Jest) and managed deployments
+via GitLab CI/CD.GGT
+--- PAGE 2 ---
+K257A/27 Truong Chinh, Da
+Nang, Viet Nam
+https://github.com/Leon0102
+0945760029linhnlh2001@gmail.comCONTACT
+ME
+EDUCATION
+Da Nang University Of Technology
+SOFT
+SKILL
+Time management
+Problem solving
+Communication
+Quick learner
+Team work
+Using Github and TrelloTECHNICAL
+SKILL
+Technologies:
+Nodejs
+Nestjs
+Reactjs
+.Net 8
+UI Framework: Material UI,
+Bootstrap, TailWindCSSBachelor's degree in Information
+Technology
+09/2019 - 06/2023
+GPA: 3.52
+Resource Management:Git,
+GitHub, Gitlab
+Workflow Management:
+Slack, Trello
+Environment: Linux,
+Docker
+Design Tools: Photoshop,
+Illustrator, Figma
+Database: SQL, MySQL,
+PostgreSQL, MongoDBTOOLSPosition: Fullstack Developer
+Description: A microservices-based product platform
+designed for the beauty and medical industry. The system
+features a federated GraphQL API composed of multiple
+NestJS microservices (IAM, Content, Media, Search) and a
+comprehensive React 18 admin console for managing
+hospitals, products, and content moderation (media
+monitoring, hashtags, forbidden words).
+Technologies: NestJS, React 18, TypeScript, GraphQL
+(Apollo Federation), PostgreSQL, Prisma, Elasticsearch,
+Kafka, Redis, Tailwind CSS, Shadcn UI, Docker.
+Architected and developed a scalable backend using NestJS
+microservices and Apollo Federation (GraphQL Gateway),
+handling domains like Identity Access Management (IAM),
+Hospitals, Products, and Content.
+Designed database schemas and managed data persistence
+using PostgreSQL alongside Prisma ORM for type-safe
+database access.
+Implemented a high-performance search service utilizing
+Elasticsearch and integrated Kafka for asynchronous, event-
+driven communication between microservices.
+Built a robust media processing pipeline using FFmpeg and
+Sharp for image/video handling, integrated with Redis for
+caching and job queues.
+Developed a fast, modern admin dashboard using React 18
+and Vite, managing complex GraphQL data fetching and
+state with Apollo Client and TanStack Query.
+Constructed a cohesive UI system utilizing Shadcn UI
+(Radix) and Tailwind CSS, implementing strict form
+validation via React Hook Form and Zod.
+Maintained a unified Turbo monorepo environment, ensuring
+code quality through Jest testing, strict linting rules, and
+GitLab CI/CD pipelines via Docker.IMB
+--- PAGE 3 ---
+K257A/27 Truong Chinh, Da
+Nang, Viet Nam
+https://github.com/Leon0102
+0945760029linhnlh2001@gmail.comCONTACT
+ME
+EDUCATION
+Da Nang University Of Technology
+SOFT
+SKILL
+Time management
+Problem solving
+Communication
+Quick learner
+Team work
+Using Github and TrelloTECHNICAL
+SKILL
+Technologies:
+Nodejs
+Nestjs
+Reactjs
+.Net 8
+UI Framework: Material UI,
+Bootstrap, TailWindCSSBachelor's degree in Information
+Technology
+09/2019 - 06/2023
+GPA: 3.52
+Resource Management:Git,
+GitHub, Gitlab
+Workflow Management:
+Slack, Trello
+Environment: Linux,
+Docker
+Design Tools: Photoshop,
+Illustrator, Figma
+Database: SQL, MySQL,
+PostgreSQL, MongoDBTOOLS
+Position: Backend Developer, Frontend Developer
+Description: Quick website builder designed to level up your
+link in bio. Showcase your products, launch your portfolio,
+and curate your brand.
+Technologies: Nodejs, Nestjs, Angular, PostgreSQL,
+Firebase, AWS S3, AWS SES, AWS Elastic Beanstalk
+Build CMS API and User Interface
+Implement API feature in application
+Integrate Authentication, authorization, and login with
+Google, Facebook
+Implement user forgot password
+Handle counting visitors on the website
+Implement Push notifications from CMS to peopleMEPPosition: Fullstack Developer
+Description:  A modern and accessible platform for delivering
+educational content to a diverse audience
+Technologies: Nodejs, Nestjs, RabbitMQ, Redis, GRPC, Turbo
+Repo, PostgreSQL, Kong API gateway
+Apply DDD(Domain-Driven Design) pattern to project
+Implement IAM Service and authorization in Kong gateway
+Implementing gRPC communication between services
+Implementing RabbitMQ communication between services
+Use redis to store necessary data and improve performanceEGPPosition: Backtend Developer
+Description: The App for a premium R/C hobby store in Hong
+Kong manages users, challenges, activities, vehicles, and the
+marketplace. It features user profile management, challenge
+creation, activity tracking, vehicle oversight, and marketplace
+management, enhancing customer experience by gamifying
+driving, tracking car history and maintenance, and connecting
+the app community.
+Technologies: Nest.js, Typescript, TypeORM, Redis,
+PostgreSQL
+Contribute setup source base using Nest.js. 
+Collaborate with frontend developers and mobile developers
+to integrate APIs. 
+Debug and troubleshoot UI issues. ATE
